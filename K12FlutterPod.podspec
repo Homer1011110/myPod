@@ -122,8 +122,8 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  spec.prepare_command = "bash ./BDFlutterDownload.sh"
-  spec.vendored_frameworks = 'Framework/*.framework'
+  spec.prepare_command = "bash ./prepare.sh"
+  spec.vendored_frameworks = 'Frameworks/*.framework'
   # s.resources = 'Framework/flutter_assets'
 
 
