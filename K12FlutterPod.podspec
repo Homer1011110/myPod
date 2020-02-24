@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "K12FlutterPod"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "A summary of K12FlutterPod."
 
   # This description is used to generate tags and improve search results.
