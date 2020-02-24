@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "K12FlutterPod"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "A summary of K12FlutterPod."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/Homer1011110/myPod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Homer1011110/myPod.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
